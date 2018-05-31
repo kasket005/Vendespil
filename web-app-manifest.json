@@ -1,0 +1,16 @@
+{
+	"name": "Vendespil",
+	"icons": [
+	{
+		"src": "ikon.png",
+		"sizes": "144x144",
+		"type": "image/png"
+		}
+	],
+	"theme_color": "#9E9E9E",
+	"background_color": "#9E9E9E",
+	"scope": "/memory-app/",
+	"start_url": "/memory-app/index.html",
+	"display": "standalone",
+	"orientation": "portrait"
+}

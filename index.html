@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="da" manifest="manifest.appcache">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="apple-touch-icon" href="ikon.png">
+  <link rel="apple-touch-icon-precomposed" href="ikon.png">
+  <link rel="manifest" href="web-app-manifest.json">
+  
+  <title>Vendespil</title>
+  
+</head>
+
+<body>
+  
+  <div id="welcome">
+  <h1>Velkommen.. Til det mest awesome spil, I VERDEN!!!</h1>
+<p>Vælg hvor mange brikker du vil spille med</p>
+
+<form id="playGame">
+  <input type="radio" name="level" value="16" id="sixteen" checked></input>
+  <label for="sixteen">16</label>
+  <input type="radio" name="level" value="20" id="twenty"></input>
+  <label for="twenty">20</label>
+  <input type="radio" name="level" value="24" id="twentyfour"></input>
+  <label for="twentyfour">24</label>
+  
+  <button type="submit">Start spillet</button>
+
+</form>
+</div>
+
+<!-- Det her vises når antal brikker er valgt -->
+
+<div>
+<div id="board"> 
+  
+</div>
+  
+<div id="message"> <!-- Det her vises når spillet slutter -->
+  <p>Tillykke! Du vandt spillet!</p>
+  <button>Slut spillet!</button>
+</div>
+  
+  
+
+    <script src="index.js"></script>
+
+
+
+
+</body>
+
+</html>
