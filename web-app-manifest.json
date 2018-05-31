@@ -9,8 +9,8 @@
 	],
 	"theme_color": "#9E9E9E",
 	"background_color": "#9E9E9E",
-	"scope": "/memory-app/",
-	"start_url": "/memory-app/index.html",
+	"scope": "kasket005.github.io/Vendespil/",
+	"start_url": "kasket005.github.io/Vendespil//index.html",
 	"display": "standalone",
 	"orientation": "portrait"
 }
